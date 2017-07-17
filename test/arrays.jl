@@ -1,7 +1,7 @@
 module TestColumnarArrayInterface
 
 using FactCheck
-using DataStructures
+import Base.Collections: PriorityQueue
 
 import Iterators: chain
 
